@@ -64,7 +64,7 @@ ptmn2/
 
 Buka `App.js` dan **ganti seluruh isinya** dengan kode berikut:
 
-![alt text]( ![alt text](image.png).png)
+![alt text](image.png)
 
 
 **✅ Checkpoint:** Simpan file → Aplikasi menampilkan teks "Halo, Dunia!"
@@ -80,20 +80,21 @@ Tambahkan kode berikut **di atas** fungsi `App()`:
 ============================================
  DATA PROFIL (objek JavaScript)
 ============================================
-![alt text]( img/image-1.png)
+![alt text](image-1.png)
 
 // ============================================
 //  DATA SKILLS (array of objects)
 //  → Akan ditampilkan dengan FlatList
 // ============================================
-![alt text]( img/image-2.png)
+![alt text](image-2.png)
 
 // ============================================
 //  DATA RIWAYAT (sections)
 //  → Akan ditampilkan dengan SectionList
 // ============================================
 
-![alt text]( img/image-3.png)
+![alt text](image-3.png)
+![alt text](image-4.png)
 
 > [!NOTE]
 > **Mengapa data di luar komponen?**  
@@ -105,7 +106,8 @@ Tambahkan kode berikut **di atas** fungsi `App()`:
 **Konsep:** Komponen kecil yang bertugas merender satu item list. Ini adalah praktik **component reuse**.
 
 Tambahkan kode berikut **di antara data dan fungsi App()**:
-![alt text]( img/image-26.png)
+
+![alt text](image-5.png)
 
 ---
 
@@ -116,7 +118,7 @@ Tambahkan kode berikut **di antara data dan fungsi App()**:
 Tambahkan state di dalam fungsi `App()`:
 
  
-![alt text]( img/image-6.png)
+![alt text](image-6.png)
  
 
 **✅ Checkpoint:** Aplikasi masih menampilkan teks, tidak ada error.
@@ -133,7 +135,7 @@ Tambahkan state di dalam fungsi `App()`:
 Ganti bagian `return (...)` di `App()`:
 
  
-![alt text]( img/image-7.png)
+![alt text](image-7.png)
 
 
 > [!TIP]
@@ -155,7 +157,7 @@ Ganti `<View><Text ...>Step 5</Text></View>` dengan:
 
  
 {/* 4. ScrollView → semua konten CV dibungkus di sini */}
-![alt text]( img/image-8.png)
+![alt text](image-8.png)
  
 
 > [!NOTE]
@@ -178,7 +180,7 @@ Tambahkan kode berikut **di dalam** `<ScrollView>`, setelah section profil:
     SECTION SKILLS
     Komponen: FlatList
     ════════════════════════════════════ */}
-![alt text]( img/image-9.png)
+![alt text](image-10.png)
  
 
 > [!TIP]
@@ -206,7 +208,7 @@ Tambahkan kode berikut **di dalam** `<ScrollView>`, setelah section profil:
     SECTION RIWAYAT
     Komponen: SectionList
     ════════════════════════════════════ */}
-![alt text]( img/image-10.png)
+![alt text](image-11.png)
  
 
 > [!NOTE]
@@ -233,7 +235,7 @@ Tambahkan kode berikut **di dalam** `<ScrollView>`, setelah section profil:
     SECTION FORM KONTAK
     Komponen: TextInput, Button, ActivityIndicator
     ════════════════════════════════════ */}
-![alt text]( img/image-11.png)
+![alt text](image-12.png)
  
 
 > [!TIP]
@@ -255,7 +257,7 @@ Tambahkan **setelah** penutup `</ScrollView>` dan sebelum `</SafeAreaView>`:
 {/* ════════════════════════════════════
     12. MODAL → popup detail riwayat
     ════════════════════════════════════ */}
-![alt text]( img/image-12.png)
+![alt text](image-13.png)
  
 
 > [!NOTE]
@@ -281,45 +283,57 @@ Tambahkan kode berikut di **bawah** fungsi `App()` (paling bawah file):
 // ============================================
 //  PALET WARNA (konstanta warna terpusat)
 // ============================================
-![alt text]( img/image-13.png)
+![alt text](image-14.png)
 
 // ============================================
 //  16. StyleSheet.create() → semua style
 // ============================================
-![alt text]( img/image-14.png)
+
+![alt text](image-15.png)
 
   // ── HEADER BAR ────────────────────────────
-  ![alt text]( img/image-15.png)
+
+![alt text](image-16.png)
 
   // ── SECTION PROFIL ─────────────────────────
-  ![alt text]( img/image-16.png)
+
+![alt text](image-17.png)
 
   // ── SOSIAL MEDIA ───────────────────────────
-  ![alt text]( img/image-17.png)
+
+![alt text](image-18.png)
 
   // ── PRESSABLE DOWNLOAD ─────────────────────
-  ![alt text]( img/image-18.png)
+
+![alt text](image-19.png)
 
   // ── SECTION BOX (wrapper kartu) ────────────
-  ![alt text]( img/image-19.png)
+
+![alt text](image-20.png)
 
   // ── SECTION LIST HEADER ────────────────────
-  ![alt text]( img/image-20.png)
+
+![alt text](image-21.png)
 
   // ── SKILL CARD ─────────────────────────────
-  ![alt text]( img/image-21.png)
+
+![alt text](image-22.png)
 
   // ── TIMELINE CARD ──────────────────────────
- ![alt text]( img/image-22.png)
+
+![alt text](image-23.png)
 
   // ── TEXT INPUT ─────────────────────────────
-  ![alt text]( img/image-23.png)
+
+![alt text](image-24.png)
 
   // ── LOADING ROW ────────────────────────────
-  ![alt text]( img/image-24.png)
+
+![alt text](image-25.png)
 
   // ── MODAL ──────────────────────────────────
-  ![alt text]( img/image-25.png)
+
+![alt text](image-26.png)
 
 
 
@@ -413,6 +427,19 @@ width: '50%'    // 50% dari parent
 5. **Buat tab navigasi sederhana** (Info / Skills / Kontak) menggunakan `TouchableOpacity`
 6. **Tambah animasi** pada profile avatar menggunakan `Animated` API
 
+![alt text](image-27.png)
+
+![alt text](image-28.png)
+
+![alt text](image-29.png)
+
+![alt text](image-30.png)
+
+![alt text](image-31.png)
+
+![alt text](image-32.png)
+
+![alt text](image-33.png)
 ---
 
 ## 📚 Referensi

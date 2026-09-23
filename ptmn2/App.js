@@ -32,7 +32,7 @@ const PROFILE = {
   phone: '+62 888-8225-949',
   location: 'Cirebon, Jawa Barat, Indonesia',
   bio: 'Pengembang aplikasi mobile berpengalaman 4 tahun yang berfokus pada React Native dan Flutter.',
-  avatarOnline: '',
+  avatarOnline: 'https://lh3.googleusercontent.com/a/ACg8ocJo0Ru3zQFupEeEaW-5Puh5ttgk-PPfG8tY0ub2DGofp8pDBA03=s192-c-mo',
   avatarOffline: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop',
 };
 
