@@ -155,7 +155,7 @@ export default function App() {
 
 Tugas Pengecekan: Jalankan aplikasi (npx expo start). Uji coba klik tombol untuk berpindah maju dan mundur antar layar.
 
-<video controls src="20260928-0814-38.5512931.mp4" title="Title"></video>
+![alt text](<Recording 2026-09-28 151105.gif>)
 ---
 
 ## D. PRAKTIKUM 2: Bottom Tab Navigation
@@ -234,7 +234,8 @@ export default function App() {
 }
 ```
 ![alt text](image-11.png)
-<video controls src="20260928-1006-53.0069198.mp4" title="Title"></video>
+
+![alt text](<Recording 2026-09-28 151508.gif>)
 ---
 
 ## E. PRAKTIKUM 3: Drawer Navigation
@@ -275,7 +276,8 @@ export default function App() {
   );
 }
 ```
-<video controls src="20260928-1002-12.0746597.mp4" title="Title"></video>
+
+![alt text](<Recording 2026-09-28 170240.gif>)
 
 **Catatan Penting:** Geser layar dari kiri ke kanan pada emulator Anda untuk memunculkan menu Drawer.
 
