@@ -235,7 +235,8 @@ export default function App() {
 ```
 ![alt text](image-11.png)
 
-![alt text](<Recording 2026-09-28 151508.gif>)
+![alt text](<Recording 2026-10-01 090730.gif>)
+
 ---
 
 ## E. PRAKTIKUM 3: Drawer Navigation
